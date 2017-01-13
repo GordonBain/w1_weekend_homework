@@ -1,5 +1,34 @@
 def pet_shop_name(pet_shop)
   return pet_shop[:name]
-
 end
 
+
+def total_cash(pet_shop)
+  return pet_shop[:admin][:total_cash]
+end
+
+
+def add_cash(pet_shop)
+  return pet_shop[:admin][:total_cash]
+end
+
+
+def add_or_remove_cash(pet_shop, adjustment)
+  # return pet_shop[:admin][:total_cash] - 10
+  return pet_shop[:admin][:total_cash] += adjustment
+end
+
+def pets_sold(pet_shop)
+  return pet_shop[:admin][:pets_sold]
+end 
+
+def increase_pets_sold(pet_shop, num_pets_sold)
+  return pet_shop[:admin][:pets_sold] += num_pets_sold
+end
+
+# def
+
+
+
+#   return pet_shop[]
+# end
